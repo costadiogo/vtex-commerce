@@ -1,4 +1,4 @@
-import logoImg from '../../assets/images/logo.png';
+import logoImg from '../../assets/images/logo.svg';
 import { Nav } from './styles';
 
 export default function Header() {
