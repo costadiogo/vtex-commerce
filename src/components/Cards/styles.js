@@ -11,6 +11,38 @@ export const Container = styled.section`
     margin: 15px auto;
 
     flex-direction: column;
+
+    p {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+        margin-left: 25px;
+        padding: 30px;
+        width: 70%;
+    }
+
+    button {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        padding: 8px 10px;
+        border-radius: 4px;
+        text-decoration: none;
+        align-self: center;
+        background: #3D7BD5;
+        border: 0;
+    
+        &:hover {
+            color: #000;
+            background: #F15171 ;
+            box-shadow: 0 0 10px #F15171, 0 0 20px #F15171, 0 0 30px #F15171;
+        }
+    }
 `;
 
 export const Content = styled.div`
@@ -47,7 +79,8 @@ export const Content = styled.div`
     }
 
     footer span {
-        color: #797D7F
+        color: #797D7F;
+        margin-right: 10px;
     }
 
     footer div {
@@ -57,11 +90,12 @@ export const Content = styled.div`
 
     footer a {
     
-        color: black;
+        color: #fff;
         font-weight: bold;
         padding: 8px 10px;
         border-radius: 4px;
         text-decoration: none;
+        background: #3D7BD5;
     
         &:hover {
             color: #000;

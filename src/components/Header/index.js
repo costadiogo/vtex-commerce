@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import logoImg from '../../assets/images/logo.svg';
 import { Nav } from './styles';
 
