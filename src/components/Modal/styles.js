@@ -47,5 +47,14 @@ export const Container = styled.form`
         }
     }
 
+    @media(max-width: 800px) {
+        input {
+            max-width: 100%;
+        }
+
+        button {
+            max-width: 100%;
+        }
+    }
 `;
 

@@ -9,7 +9,10 @@ export const Nav = styled.nav`
     align-items: center;
     justify-content: space-between;
     
-    
+    @media(max-width: 800px) {
+    flex-direction: column;
+    position: relative;
+  }
 
     img {
     width: 100px;

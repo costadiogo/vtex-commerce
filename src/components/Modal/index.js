@@ -14,8 +14,7 @@ export function NewModal({isOpen, onRequestClose}) {
     
        const data = { name, email }
 
-       //localStorage.setItem('data', JSON.stringify(data));
-       sessionStorage.setItem('data', JSON.stringify(data));
+       localStorage.setItem('data', JSON.stringify(data));
 
     alert('Parabéns!! Email cadastrado com sucesso');
   };

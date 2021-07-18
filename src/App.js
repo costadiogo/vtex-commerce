@@ -4,12 +4,12 @@ import promotion from '../src/services/promotion';
 import promotions from '../src/services/promotions';
 import Card from './components/Cards';
 import Header from './components/Header';
-import { NewTransactionModal } from './components/NewTransactionModal';
+import { NewModal } from './components/Modal';
 
 Modal.setAppElement('#root');
 
 function App() {
-  //Modal
+  
   const [isNewModalOpen, setIsNewModalOpen] = useState(false);
 
   function handleModalOpen() {
@@ -31,7 +31,7 @@ function App() {
         onOpenNewModal={handleModalOpen}
 
        />
-       <NewTransactionModal 
+       <NewModal 
         isOpen={isNewModalOpen}
         onRequestClose={handleModalClose}
       />

@@ -12,6 +12,11 @@ export const Container = styled.section`
 
     flex-direction: column;
 
+    @media(max-width: 800px) {
+    flex-direction: column;
+    position: relative;
+  }
+
     p {
         display: flex;
         align-items: center;
